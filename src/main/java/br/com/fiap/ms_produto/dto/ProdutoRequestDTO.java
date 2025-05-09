@@ -24,7 +24,7 @@ public record ProdutoRequestDTO(
         CategoriaDTO categoria,
 
         @NotNull(message = "Loja requerida")
-        Set<LojaDTO> loja)
+        Set<LojaDTO> lojas)
 {
 
 }
